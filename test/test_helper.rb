@@ -9,3 +9,5 @@ class CapybaraTestCase < Minitest::Test
   include Capybara::DSL
   include Capybara::Minitest::Assertions
 end
+
+Capybara.save_path = './tmp/capybara'

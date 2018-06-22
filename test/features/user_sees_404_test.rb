@@ -1,6 +1,6 @@
 require './test/test_helper'
 
-class HomepageTest< CapybaraTestCase
+class ErrorTest< CapybaraTestCase
   def test_user_sees_404_when_visiting_bogus_page
     visit '/bingbong'
 
